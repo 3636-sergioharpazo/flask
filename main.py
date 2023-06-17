@@ -1,7 +1,19 @@
 from flask import Flask,jsonify,request
 
 app = Flask(__name__):
-livros=[{'total':24900,'status':'paid','payment'}]
+
+livros=[{
+'id':1,
+'titulo':'A vida digital',
+'Autor':'Antonio Oliveira'
+
+},{
+
+'id':2,
+'titulo':'A vida digital2',
+'Autor':'Antonio Oliveira2'
+}
+]
 
     
 
