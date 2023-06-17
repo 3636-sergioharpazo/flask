@@ -7,10 +7,10 @@ app = Flask(__name__)
 def obter_livros():
     return jsonify(livros)
 
-@app.route('/livros/<int:cpf>',methods=['GET'])
-def consulta_livros_id(id):
+@app.route('/livros/<int:document>',methods=['GET'])
+def consulta_livros_id(document):
     for livro in livros:
-        if livro.get('cpf')==cpf:
+        if livro.get('document')==document:
             return jsonify(livro)
 
 @app.route('/livros/<int:id>',methods=['PUT'])
