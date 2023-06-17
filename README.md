@@ -1,21 +1,12 @@
----
-title: Flask
-description: A popular minimal server framework for Python
-tags:
-  - python
-  - flask
----
 
-# Python Flask Example
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+API - FOR TEST IN INSOMINA:
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+USE TO TEST URL:
 
-## ✨ Features
+https://flask-production-6957.up.railway.app/livros
 
-- Python
-- Flask
+
 
 ## 💁‍♀️ How to use
 
