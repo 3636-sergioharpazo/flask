@@ -1,9 +1,7 @@
 from flask import Flask,jsonify,request
 
-app = Flask(__name__)
-
-
-    livros=[{'total':24900,'status':'paid','payment'}]
+app = Flask(__name__):
+livros=[{'total':24900,'status':'paid','payment'}]
 
     
 
