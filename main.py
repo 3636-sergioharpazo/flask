@@ -1,7 +1,6 @@
 from flask import Flask,jsonify,request
  
 app = Flask(__name__):
-
 livros=[{
 'id':1,
 'titulo':'A vida digital',
@@ -14,9 +13,6 @@ livros=[{
 'Autor':'Antonio Oliveira2'
 }
 ]
-
-    
-
     
 @app.route('/livros/')
 def obter_livros():
@@ -49,8 +45,6 @@ def criar_livros_id():
     livro_novo=request.get_json()
     livros.append(livro_novo) 
     return jsonify(livros) 
-
-
             
 
 if __name__ == '__main__':
