@@ -1,7 +1,7 @@
 from flask import Flask,jsonify,request
 import os
  
-app = Flask(__name__):
+app = Flask(__name__)
 livros=[{
 'id':1,
 'titulo':'A vida digital',
