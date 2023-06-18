@@ -2,7 +2,7 @@ from flask import Flask,jsonify,request
 import os
  
 app = Flask(__name__)
-livros=[{"total":24900,"status":"paid"}]
+livros=[{"id":1,"nome":"antonio"},{"id":2,"nome":"antonio2"}]
         
 @app.route('/livros/')
 def obter_livros():
