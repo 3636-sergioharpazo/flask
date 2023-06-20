@@ -8,10 +8,10 @@ livros=[{"id":1,"nome":"antonio"},{"id":2,"nome":"antonio2"}]
 def obter_livros():
     return jsonify(livros)
 
-@app.route('/livros/<int:document>',methods=['GET'])
-def consulta_livros_id(document):
+@app.route('/livros/<int:id>',methods=['GET'])
+def consulta_livros_id(id):
     for livro in livros:
-        if livro.get('document')==document:
+        if livro.get('id')==id:
             return jsonify(livro)
 
 @app.route('/livros/<int:id>',methods=['PUT'])
